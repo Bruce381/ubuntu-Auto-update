@@ -2,4 +2,4 @@
 
 This file could Auto update system
 
-$python3 <name>
+$python3 
