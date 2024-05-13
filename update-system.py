@@ -9,7 +9,6 @@ import subprocess
 password = input("your password of root: ")
 while True:
     try :
-        password = ""
         subprocess.run(["sudo","-S","apt","update"],input=password, text=True)
         time.sleep(2)
         subprocess.run(["sudo","-S","apt","upgrade","-y"],input=password, text=True)
