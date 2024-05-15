@@ -1,12 +1,13 @@
 """
 made by <Bruce> at May 3 2024
-it will update the system
+it will update the ubuntu system
 """
 
 import time
 import subprocess
 
-password = input("your password of root: ")
+password = input('Your pass word: ')
+
 while True:
     try :
         subprocess.run(["sudo","-S","apt","update"],input=password, text=True)
